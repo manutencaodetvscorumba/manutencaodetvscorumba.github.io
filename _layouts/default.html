@@ -1,20 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
-
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -24,7 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="/css/main.css">
   </head>
   <body>
     
@@ -34,15 +21,23 @@
     </header>
 
 
-    <main id="content" class="main-content" role="main">
+    <main role="main">
      
       <div class="container">
         <div class="row">
           <div class="col col-sm-4">
-            Bacharel em Sistemas de Informação pela UFMS-CPAN. Com experiência de estágios em desenvolvimento Web, pesquisa eauxílio na gestão de TI. Trabalhou backend com Laravel e PHP; trabalhou frontend com Re-actJS. Trabalhou com banco de dados, utilizando MySQL e MongoDB. Habilidades em design,conhece as técnicas para prover boa interação humano computador e sabe trabalhar comHTML e CSS. Tem conhecimento em engenharia de software, já trabalhou com metodologiaságeis como scrum. Empenhado em manter competências técnicas de última geração, temconhecimento das ferramentas utilizadas na atualidade do mercado, como ReactJS, Mon-goDB, Boostrap, NodeJS e Laravel.
+            <img>
+            <ul class="list-group">
+              <li class="list-group-item">Linkedin</li>
+              <li class="list-group-item">Github</li>
+              <li class="list-group-item">Páginas</li>
+            </ul>
+              
+
           </div>
           <div class="col .col-sm-6">
-            2 of 2
+            Bacharel em Sistemas de Informação pela UFMS-CPAN. Com experiência de estágios em desenvolvimento Web, pesquisa e assistência na gestão de TI. Trabalhou back-end com Laravel e PHP; trabalhou front-end com ReactJS. Trabalhou com banco de dados, utilizando MySQL e MongoDB. Habilidades em design,conhece as técnicas para prover boa interação humano computador e sabe trabalhar com HTML e CSS. Tem conhecimento em engenharia de software, já trabalhou com metodologias ágeis como scrum. Empenhado em manter competências técnicas de última geração, tem conhecimento das ferramentas utilizadas na atualidade do mercado, como ReactJS, MongoDB, Boostrap, NodeJS e Laravel.
+
           </div>
         </div>
       </div>
