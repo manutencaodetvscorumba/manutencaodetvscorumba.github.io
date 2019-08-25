@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+    background-color: #94d2b3;
+}
+
+.col{
+    text-align: justify;
+}
+
+#menu{
+    padding-bottom: 10px;
+    min-width: 360px;
+}
+
+#texto{
+    padding-top: 10px;
+}
