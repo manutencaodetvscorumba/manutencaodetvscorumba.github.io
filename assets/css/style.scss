@@ -4,7 +4,7 @@
 @import "{{ site.theme }}";
 
 body {
-    background-color: #94d2b3;
+    background-color: #94d2b3 !important;
 }
 
 .col{
@@ -12,6 +12,7 @@ body {
 }
 
 #menu{
+    padding-top: 10px; 
     padding-bottom: 10px;
     min-width: 360px;
 }
