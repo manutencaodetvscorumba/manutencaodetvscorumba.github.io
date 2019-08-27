@@ -10,10 +10,10 @@
 #menu{
     padding-top: 10px; 
     padding-bottom: 10px;
-    /*min-width: 360px;*/
+    /*min-width: 300px;*/
 }
 
-@media (max-width: 600px){
+@media screen and (max-width: 767px){
   #menu {
     width: 100%;
   }
