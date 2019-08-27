@@ -10,7 +10,13 @@
 #menu{
     padding-top: 10px; 
     padding-bottom: 10px;
-    min-width: 360px;
+    /*min-width: 360px;*/
+}
+
+@media (max-width: 600px){
+  #menu {
+    width: 100%;
+  }
 }
 
 .list-group-item{
