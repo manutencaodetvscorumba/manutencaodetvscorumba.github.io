@@ -3,12 +3,15 @@
 
 @import "{{ site.theme }}";
 
-body{
-background-color: #949A9A !important;
-    background: none !important; 
-        /*qualquer coisa tirar esse background pra ficar preto*/
+body {
+    background-color: #949A9A !important;
+    background-image: none !important;
+    /*   background-position-x: 0px;
+        background-position-y: 0px;*/
 
+    /*qualquer coisa tirar esse background-img pra ficar preto*/
 }
+
 
 .yellow-color-h1{
 color: #FFCA0B !important
