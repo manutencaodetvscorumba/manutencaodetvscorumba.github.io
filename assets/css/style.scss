@@ -5,6 +5,7 @@
 
 body{
 background-color: #949A9A !important;
+    background: none !important;
 }
 
 .yellow-color-h1{
@@ -53,7 +54,8 @@ color: #FFCA0B !important
     color: white;
 }
 a{
-    color: #b5e853 !important;
+    color: black !important;
+    text-shadow: none !important;
 }
 a:hover{
     text-decoration: none !important;
